@@ -149,7 +149,7 @@ npm run logs:charts
 2. **Stream ingestion:**
 
 ```bash
-npm run stream:ingest:fast
+npm run stream:ingest
 ```
 
 3. **Clean old data:**
