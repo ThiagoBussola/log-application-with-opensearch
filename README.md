@@ -97,16 +97,9 @@ npm run logs:charts 7
 
 ### Stream Ingestion
 
-```bash
-# Standard ingestion
+````bash
+# Data ingestion
 npm run stream:ingest
-
-# Fast ingestion
-npm run stream:ingest:fast
-
-# Maximum ingestion
-npm run stream:ingest:max
-```
 
 ### Statistics and Cleanup
 
@@ -122,7 +115,7 @@ npm run opensearch:cleanup:all
 
 # Clean old indices (older than 7 days)
 npm run opensearch:cleanup:old
-```
+````
 
 ## Project Structure
 

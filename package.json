@@ -13,8 +13,6 @@
     "generate:logs:full": "ts-node src/scripts/generate-logs.ts 200000",
     "scenarios:run": "ts-node src/scripts/run-scenarios.ts",
     "stream:ingest": "ts-node src/scripts/stream-ingestion.ts --total=600000 --batch=4000 --concurrency=2 --force",
-    "stream:ingest:fast": "ts-node src/scripts/stream-ingestion.ts --total=600000 --batch=15000 --concurrency=4 --force",
-    "stream:ingest:max": "ts-node src/scripts/stream-ingestion.ts --total=600000 --batch=20000 --concurrency=6 --force",
     "opensearch:stats": "ts-node src/scripts/opensearch-stats.ts",
     "opensearch:cleanup": "ts-node src/scripts/opensearch-cleanup.ts --pattern=logs-* --dry-run",
     "opensearch:cleanup:all": "ts-node src/scripts/opensearch-cleanup.ts --pattern=logs-* --force",
